@@ -1,0 +1,68 @@
+/* Kada vise elemenata imaju isto svojstvo*/
+h3, h4 {
+    color: orange;
+}
+
+/* Pristupanje klasi*/
+.desno_poravnanje {
+    text-align: right;
+}
+
+.crveni_tekst {
+    color: red;
+}
+
+.drugi, #treci {
+    background-color: yellow;
+}
+
+#treci {
+    font-style: italic;
+}
+
+/* Prioritet selektora: element < klasa < id < inline < !important */
+li {
+    color: limegreen;
+}
+
+.stavka {
+    color: blue;
+}
+
+#prva_stavka {
+    color: orange;
+}
+
+#cetvrta_stavka {
+    color: brown !important;
+}
+
+div p {
+    color: aquamarine;
+}
+
+div>p {
+    border: 1px solid green;
+}
+
+a {
+    color: lime;
+    text-decoration: none;
+}
+
+a:hover {
+    color: brown;
+}
+
+p:first-child {
+    font-weight: bold;
+}
+
+/*svaki treci*/
+li:nth-child(3n) {
+    font-weight: bold;
+}
+/*samo treci*/
+li:nth-child(3) {
+    text-decoration: line-through;
+}
