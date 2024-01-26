@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-image: url('panda.jpg');
+    color: white;
+    height: 400px;
+    position: relative;
+}
+/* gornji levi ugao */
+/* div { 
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+/* gornji desni ugao */
+/* div { 
+    position: absolute;
+    top: 0;
+    right: 0;
+} */
+
+/* donji levi ugao */
+/*div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+ } */
+
+ /* donji desni ugao */
+ /*div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+ }*/
+
+ /* centriran */
+ div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }

@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.topbar ul {
+    overflow: hidden;
+    list-style: none;
+}
+
+.topbar ul li {
+    float: left;
+    width: 25%;
+    border: 1px solid red;
+    text-align: center;
+    background-color: brown;
+}
+
+.topbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+    font-size: 18px;
+    display: block;
+}
+
+.topbar ul li a:hover {
+    background-color: chocolate;
+}
+
+/* padajuci meni */
+.dropdown {
+    display: none;
+}
+
+.topbar li:nth-child(4):hover .dropdown {
+    display: block;
+}
+
+.ostatak {
+    position: relative;
+    top: 45px;
+    overflow: hidden;
+}
+
+.ostatak aside {
+    float: left;
+    width: 30%;
+}
+
+.ostatak section {
+    float: left;
+    width: 70%;
+}
+
+/* vertikalni meni */
+.ostatak aside ul {
+    list-style: none;
+}
+
+.ostatak aside ul li {
+    border: 1px solid green;
+    text-align: center;
+    background-color: darkgreen;
+}
+
+.ostatak aside ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+    font-size: 18px;
+    display: block;
+}
+
+.ostatak ul li a:hover {
+    background-color: greenyellow;
+}
+
+/* visibility-i dalje zauzima prostor al se ne vidi */
+.ostatak li:nth-child(3) {
+    visibility: hidden;
+}
