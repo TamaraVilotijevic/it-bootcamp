@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding-bottom: 50px;
+}
+
+.row {
+    width: 100%;
+    overflow: hidden;
+}
+
+.heder {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    padding: 20px;
+    border: 1px solid aquamarine;
+    background-color: rgb(64, 168, 133);
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: 20px;
+}
+
+aside {
+    background-image: linear-gradient(rgb(64, 168, 133), white);
+}
+
+aside p {
+    padding: 10px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+.artikli p {
+    padding: 20px 10px;
+    font-style: italic;
+}
+
+h4 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.artikli div {
+    background-image: linear-gradient(rgb(64, 168, 133), white);
+    /* height: 200px; */
+}
+
+.futer {
+    height: 50px;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+}
+
+[class*='col-'] {
+    float: left;
+}
+
+@media only screen and (min-width: 1000px) {
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    [class*='col-'] {
+        width: 100%;
+    }
+    [class*='col-'] {
+        display: block;
+    }
+
+    .sakrij {
+        display: none;
+    }
+
+    .dropdown {
+        height: 43px;
+        overflow: hidden;
+    }
+
+    .dropdown:hover {
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .mobile {
+        display: none;
+    }
+}
