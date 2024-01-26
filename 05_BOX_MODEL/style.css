@@ -1,0 +1,46 @@
+a {
+    /* border-style: solid;
+    border-width: 3px;
+    border-color: red;
+    border-top-color: blueviolet; */
+    border: 3px solid red;
+    border-radius: 6px;
+    /* margin-left: 10px;
+    margin-top: 5pt; */
+    margin: 5pt 0 0 10px;
+    padding: 15px 23px;
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+}
+/* INLINE e;ement zauzima samo neophodnu sirinu i visinu
+span, a, td... 
+redjaju se jedan do drugog*/
+
+/* BLOCK element zauzima celu sirinu ekrana: 
+p, div, table, h1-h6.... 
+redjaju se jedan ispod drugog*/
+
+p {
+    background-color: blue;
+    border: 4px solid black;
+    width: 200px;
+    height: 300px;
+}
+
+span {
+    background-color: brown;
+    color: white;
+    border: 3px solid blue;
+    padding: 30px;
+    width: 50%;
+    display: inline-block;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* display svojstvo 
+inline-block: moze da se podesava visina i sirina a redjaju se jedni do drugog*/
